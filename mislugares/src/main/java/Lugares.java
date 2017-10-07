@@ -15,5 +15,5 @@ public interface Lugares {
 
     int tamanyo(); //Devuelve el número de elementos
 
-    void actualiza(int id, Lugar lugar); //Reemplaza un elemento
+    void actualiza(int id, Lugar lugar); //Reemplaza un elemento7
 }
