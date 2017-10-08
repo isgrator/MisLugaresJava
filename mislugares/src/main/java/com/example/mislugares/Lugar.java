@@ -25,6 +25,12 @@ public class Lugar {
         this.valoracion= valoracion;
     }
 
+    public Lugar(){
+        fecha= System.currentTimeMillis();
+        posicion= new GeoPunto(0,0);
+        tipo= TipoLugar.OTROS;
+    }
+
     public String getNombre() {
         return nombre;
     }
